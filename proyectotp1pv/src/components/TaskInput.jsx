@@ -18,7 +18,7 @@ function TaskInput({ onAdd }) {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit">Agregar</button>
+      <button className='agregar' type="submit">Agregar</button>
     </form>
   );
 }
