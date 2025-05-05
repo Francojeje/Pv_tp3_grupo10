@@ -10,11 +10,11 @@ function TaskItem({ task, onToggle, onDelete }) {
         <div>
           {!task.completed && (
             <button className="btn-realizado" onClick={() => onToggle(task.id)}>
-              Realizado
+              <img id="chequeo" src="/cheque.png"/>
             </button>
           )}
           <button className="btn-eliminar" onClick={() => onDelete(task.id)}>
-            Eliminar
+            <img id="basura" src="/circulo.png"/>
           </button>
         </div>
       </div>
