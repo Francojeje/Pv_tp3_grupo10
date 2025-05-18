@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
+import Productos from './components/Productos';
 import './App.css';
-
 function App() {
   const [tasks, setTasks] = useState([]);
 
@@ -32,8 +32,9 @@ function App() {
       <h1 className="title">Lista de Tareas</h1>
       <TaskInput onAdd={addTask} />
       <TaskList tasks={tasks} onToggle={toggleTask} onDelete={deleteTask} />
+      <hr />
+      <Productos className="app-productos"/>
     </div>
   );
 }
-
 export default App;

@@ -163,5 +163,16 @@ body{
 .btn-eliminar:hover {
   transform: scale(1.1);
 }
-
-/* Estilo de íconos */
+h3{
+  color: #f0f4f8;
+  text-align: center;
+}
+.seccionprodu{
+  color: #45a049;
+  text-align: center;
+}
+.productosli li {
+  text-align: center;
+  list-style: none;
+  color: #44e04c;
+}
